@@ -13,6 +13,7 @@ class MyAppBar extends StatelessWidget with PreferredSizeWidget {
   }
 
   @override
+  // ignore: todo
   // TODO: implement preferredSize
   Size get preferredSize => const Size.fromHeight(55);
 }
