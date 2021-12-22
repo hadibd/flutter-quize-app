@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
                   backgroundColor: Colors.white,
                   radius: 60,
                   child: ClipOval(
-                    child: Image.asset(images[index], fit: BoxFit.cover,),
+                    child: Image.asset(images[index], fit: BoxFit.fill, ),
                   ),
                 ),
                 const Text(
